@@ -1,0 +1,56 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'times new roman', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #e5e5e5;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+}
+.button{
+  background-color: #e5e5e5;
+  color: #000000;
+  font-style: bold;
+}
+.op{
+  background-color: #fca311;
+  color: #000000;
+}
+.text-center{
+  text-align: center;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
